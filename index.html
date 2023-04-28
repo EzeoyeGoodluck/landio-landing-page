@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Landio Landing Page</title>
+</head>
+<body>
+    <nav class="border border-bottom fixed top-0 right-0  left-0 z-20 bg-white">
+        <!--============================= Flex container============================ -->
+        <div class="relative container p-5 mx-auto ">
+            <div class=" flex items-center justify-between">
+                <div>
+                    <img src="./assets/images/logo.svg" alt="">
+                </div>
+                <div class=" hidden lg:block space-x-6 flex text-coolGray ">
+                    <a href="#" class="hover:text-majorelleBlue">Home</a>
+                    <a href="#features" class="hover:text-majorelleBlue">Features</a>
+                    <a href="#pricing" class="hover:text-majorelleBlue">Pricing</a>
+                    <a href="#blog" class="hover:text-majorelleBlue">Blog</a>
+                    <a href="#contact" class="hover:text-majorelleBlue">Contact Us</a> 
+                </div>
+                <div class="hidden lg:block  space-x-6 flex text-coolGray" >
+                    <a href="#" class="hover:text-majorelleBlue">Log in</a> 
+                    <a href="#" class="hover:text-majorelleBlue">Register</a> 
+                </div>
+                  <!-- Harmburger icon -->
+            <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+              <span class=" hamburger-top"></span>
+              <span  class=" hamburger-middle"></span>
+              <span  class=" hamburger-bottom"></span>
+            </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Nav -->
+      <div class=" lg:hidden block transition duration-150 ease-in-out">
+        <div id="menu" class=" absolute flex-col items-start self-end hidden py-8  px-3 space-y-6 font-bold bg-white text-left  left-0 right-0  drop-shadow-md   transition duration-75 ease-in-out">
+          <a href="#" class="hover:text-white text-coolGray">Home</a>
+          <a href="#features" class="hover:text-white text-coolGray">Features</a>
+          <a href="#pricing" class="hover:text-white text-coolGray">Pricing</a>
+          <a href="#blog" class="hover:text-white text-coolGray">Blog</a>
+          <a href="#contact" class="hover:text-white text-coolGray">Contact Us</a>
+          <a href="#" class="hover:text-white text-coolGray">Login </a>
+          <a href="#" class="hover:text-white text-coolGray">Register</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section -->
+    <section id="pricing" class="bg-ghostWhite1">
+        <div class="container mx-auto flex flex-col justify-start   pt-24  md:justify-start space-y-3 lg:flex-row  md:space-y-0  md:space-x-6  ">
+            <!-- Flex conatainer -->
+            <div class="lg:w-1/2  flex flex-col items-start  space-y-12 p-6">
+                <h2 class="text-4xl max-w-100%   font-bold text-eerieBlack md:text-left md:text-5xl">
+                     Creative Landing Page 
+                </h1>
+                <p class=" md:text-left max-w-sm text-2xl">🥳Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, rem.</p>
+                <div class="w-100%">
+                    <form>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, quis!</p>
+                        <div class="flex  space-x-[-105px] mt-6">
+                            <input type="text" w-full placeholder="Enter your Email" class="p-4 px-6 w-full bg-ghostWhite2  border focus:outline-majorelleBlue  border-none rounded-md">
+
+                            <button class="btn h-10 px-3 py-2 text-center self-center rounded-md my-auto bg-majorelleBlue text-white text-base font-bold outline-none  border-none hover:translate-y-[-4px] transition transition-duration-200  hover:drop-shadow-majorelleBlue drop-shadow-2xl  " type="button">Subscribe</button>
+                        </div>               
+                    </form>
+                </div>
+            </div>
+            <div class="lg:w-1/2 p-12">
+                <img src="./assets/images/hero-banner.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- END OF HERO SECTION -->
+
+    <!--========================= About Section================================ -->
+    <section id="about" class="bg-white py-24 space-y-3">
+        <div class="container mx-auto space-y-6 px-3 md:space-y-0 md:items-start flex flex-col lg:flex-row lg:justify-between ">
+            <!-- ==========About Header================== -->
+            <div class="w-100% lg:w-1/2  p-6 space-y-12 ">
+                <span class="text-4xl  bg-lavenderWeb p-2 px-4 rounded-md text-majorelleBlue"><i class="uil uil-cube"></i></span>
+                <h2 class="text-4xl text-left">
+                    Why Choose Us ?
+                </h2>
+                <p class="text-left pb-10 max-w-sm">
+                    Nam libero tempore cum soluta as nobis est eligendi optio cumque nihile impedite quo minus id quod maxime.
+                </p>
+                <a href="#" class="btn p-4 px-6  border-solid border border-majorelleBlue text-md text-majorelleBlue rounded-md  hover:translate-y-[-4px] transition transition-duration-200 hover:bg-majorelleBlue hover:text-white hover:translate-y-[-4px]  "> Learn More</a>
+            </div>
+
+
+             <!-- ==========About Content================== -->
+             <div class="flex flex-col justify-center items-center w-100%  lg-flex-row  lg:w-1/2 md:space-y-6  lg:space-y-3">
+                <!-- ========About Content Box-1================= -->
+                <div class="md:flex md:flex-row  md:space-x-3 md:px-3">
+                     <!-- card-1 -->
+                <div class="shadow  text-center w-100% lg:w-64  p-10  hover:drop-shadow-md hover:rounded space-y-3 md:space-y-0  md:w-1/2  " >                 
+                    <span class="text-4xl   text-majorelleBlue p-2 px-4 rounded-full bg-lavenderWeb mb-6 "><i class="uil uil-thumbs-up"></i></span>
+                    <h2 class="text-2xl text-base  g font-bold text-left md:text-center pt-3">
+                        Esay To Use
+                    </h2>
+                    <p class="text-center text-brightRed font-2xl max-w-2xl">
+                        Nam libero tempore cum soluta as nobis est
+                    </p>
+                </div>
+                 <!-- card-2 -->
+                 <div class="shadow   lg:w-64   w-100% p-10 text-center space-y-3  md:w-1/2 lg:translate-y-8" >
+                    <span class="text-center text-4xl p-2 px-4 text-majorelleBlue  bg-lavenderWeb rounded-full"><i class="uil uil-shield-plus"></i></span>
+                    <h2 class="text-2xl text-base font-bold text-left md:text-center  pt-3 ">
+                        Analytics Security
+                    </h2>
+                    <p class="text-center text-brightRed font-2xl">
+                        Nam libero tempore cum soluta as nobis est
+                    </p>
+                </div>
+                </div>
+
+               <!-- ===============About Content Box-2 -->
+                <div class="md:flex md:flex-row md:space-x-3 md:px-3 md:space-y-6 lg:space-y-0">
+                    <div class="shadow  lg:w-64   w-100%   p-10 text-center space-y-3  md:w-1/2" >
+                        <span class="text-center text-4xl p-2 px-4 text-majorelleBlue  bg-lavenderWeb rounded-full"><i class="uil uil-arrows-left-down"></i></span>
+                        <h2 class="text-2xl text-base font-bold text-center md:text-center  pt-3 ">
+                            Grow Your Revenue
+                        </h2>
+                        <p class="text-left text-brightRed font-2xl">
+                            Nam libero tempore cum soluta as nobis est
+                        </p>
+                    </div>
+    
+                    <!-- card-4 -->
+                    <div class="shadow  lg:w-64   w-100%   p-10 text-center space-y-3 md:w-1/2 lg:space-y-3 lg:translate-y-8" >
+                        <span class="text-center text-4xl p-2 px-4 text-majorelleBlue  bg-lavenderWeb rounded-full"><i class="uil uil-database"></i></span>
+                        <h2 class="text-2xl text-base font-bold text-center md:text-center  pt-3">
+                            Data Privacy
+                        </h2>
+                        <p class="text-center text-brightRed font-2xl">
+                            Nam libero tempore cum soluta as nobis est
+                        </p>
+                    </div>
+
+                </div>
+             </div>            
+        </div>
+    </section>
+
+    <section id="features" class="bg-ghostWhite1 py-24 ">
+        <div class="container mx-auto space-y-20 md:space-y-20 px-3 md:px-10 lg:px-0">
+             <!--====================== Features Header========================= -->
+            <div class="text-center mx-auto flex flex-col items-center space-y-3">
+                <h2 class=" text-3xl md:text-4xl max-w-md  font-bold">Awesome Features</h2>
+                <p class="max-w-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam libero beatae magni itaque nostrum </p>
+            </div>
+              <!--================================= Feature container===================== -->
+              <div class="flex flex-col lg:flex-row  group  md:mb-0  items-center  lg:w-full lg:justify-between lg:space-x-24 lg:justify-between ">
+                <div class="lg:w-1/2  ">
+                    <img src="./assets/images/features-img-1.png" alt="">
+                </div>
+                <div class="lg:w-1/2 space-y-6 "> 
+                    <h4 class="text-md"> 
+                        <span class="text-majorelleBlue"><i class="uil uil-star"></i></span>
+                        CREATIVE FEATURES</h4>
+                    <h2 class="text-3xl max-w-md md:max-w-2xl font-bold">Build community & conversion with our suite of social tool</h2>
+    
+                    <p class="text-md">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere omnis commodi quidem sint ipsa. Excepturi minima sequi dolor sit iusto </p>
+                    <div class="space-y-2">
+                        <div class="flex flex-row space-x-2">
+                            <span class="text-majorelleBlue"><i class="uil uil-rocket"></i></span>
+                            <p class="text-md">Donec pede justo fringilla vel nec.</p>
+                        </div>
+                        <div class="flex flex-row space-x-2">
+                            <span class="text-majorelleBlue"><i class="uil uil-wifi"></i></span>
+                            <p class="text-md">Donec pede justo fringilla vel nec.</p>
+                        </div>
+                    </div>
+                    <div class=" flex flex-row space-x-3">
+                        <button class="btn btn-md rounded-md bg-majorelleBlue p-3 px-6 text-white font-bold  hover:translate-y-[-4px]   transition transition-duration-150 ease-in-out">
+                            Read More
+                        </button>
+                        <button class="btn btn-md rounded-md bg-lavenderWeb p-3 px-6 text-majorelleBlue font-bold  hover:translate-y-[-4px]   transition transition-duration-150 ease-in-out ">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Feature container B  -->
+            <div class="flex flex-col lg:flex-row lg:justify-between items-center lg:space-x-24 lg:justify-between ">
+                <div class="lg:w-1/2 space-y-6">
+                    <h4 class="text-md"> 
+                        <span class="text-majorelleBlue"><i class="uil uil-star"></i></span>
+                        CREATIVE FEATURES</h4>
+                    <h2 class="text-2xl max-w-md md:max-w-2xl font-bold">We do the work you stay focused on your customers.</h2>
+        
+                    <p class="text-md">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere omnis commodi quidem sint ipsa. Excepturi minima sequi dolor sit iusto </p>
+                    <div class="space-y-2">
+                        <div class="flex flex-row space-x-2">
+                            <span class="text-majorelleBlue"><i class="uil uil-rocket"></i></span>
+                            <p class="text-md">Donec pede justo fringilla vel nec.</p>
+                        </div>
+                        <div class="flex flex-row space-x-2">
+                            <span class="text-majorelleBlue"><i class="uil uil-wifi"></i></span>
+                            <p class="text-md">Donec pede justo fringilla vel nec.</p>
+                        </div>
+                    </div>
+                    <div class=" flex flex-row space-x-3">
+                        <button class="btn btn-md rounded-md bg-majorelleBlue p-3 px-6 text-white font-bold hover:translate-y-[-4px]  transition transition-duration-200 ">
+                            Read More
+                        </button>
+                        <button class="btn btn-md rounded-md bg-lavenderWeb p-3 px-6 text-majorelleBlue font-bold  hover:translate-y-[-4px]   transition transition-duration-200">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 ">
+                    <img src="./assets/images/features-img-2.png" alt="features image">
+                </div>
+            </div>
+        </div>     
+    </section>
+
+
+
+
+    <!-- ==========================Blog section===================== -->
+    <section id="blog"  class="bg-White py-24 ">
+        <div class="container mx-auto space-y-10 md:space-y-20 px-5 lg:px-0">
+        <!--============== Blog Header========= -->
+        <div class="text-center mx-auto flex flex-col items-center space-y-3">
+            <h2 class=" text-3xl md:text-4xl max-w-md  font-bold"> Latest News</h2>
+            <p class="max-w-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam libero beatae magni itaque nostrum </p>
+        </div>
+        <!-- ====================Blog Contianer======================= -->
+        <div class="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6">
+            <article class=" lg:w-1/3 space-y-3">
+                <!-- =================Blog image=============== -->
+                <div>
+                    <img src="./assets/images/blog-banner-1.jpg" alt="blog-banner-1"  class="rounded-md">
+                </div>
+                <!-- ===============Blog Date======================= -->
+                <div class="flex flex-row space-x-4">
+                    <div class="flex">
+                        <span><i class="uil uil-calendar-alt"></i></span>
+                        <p>APRIL 10 2021</p>
+                    </div>
+                    <div class="flex">
+                        <span><i class="uil uil-user"></i></span>
+                        <p>ADMIN</p>
+                    </div>
+                </div>
+                <!-- =======================Blog Header=================== -->
+                <div>
+                    <h2 class="text-2xl font-bold">BEST TRAVELING PLACES</h2>
+                </div>
+                <!-- ======================Blog Content=============== -->
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quia tenetur dolores libero iusto amet quibusdam quo rerum quaerat numquam! Similique alias </p>
+                </div>
+                <div>
+                    <a href="#" class="text-majorelleBlue">
+                        Learn more <span><i class="uil uil-angle-right"></i></span>
+                    </a>
+                </div>
+            </article>
+            <!-- ===================End of Card 1=============================== -->
+            <article class=" lg:w-1/3 space-y-3">
+                <!-- =================Blog image=============== -->
+                <div>
+                    <img src="./assets/images/blog-banner-2.jpg" alt="blog-banner-1"  class="rounded-md">
+                </div>
+                <!-- ===============Blog Date======================= -->
+                <div class="flex flex-row space-x-4">
+                    <div class="flex">
+                        <span><i class="uil uil-calendar-alt"></i></span>
+                        <p>APRIL 10 2021</p>
+                    </div>
+                    <div class="flex">
+                        <span><i class="uil uil-user"></i></span>
+                        <p>ADMIN</p>
+                    </div>
+                </div>
+                <!-- =======================Blog Header=================== -->
+                <div>
+                    <h2 class="text-2xl font-bold">BEST MEETING ROOM</h2>
+                </div>
+                <!-- ======================Blog Content=============== -->
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quia tenetur dolores libero iusto amet quibusdam quo rerum quaerat numquam! Similique alias </p>
+                </div>
+                <div>
+                    <a href="#" class="text-majorelleBlue">
+                        Learn more <span><i class="uil uil-angle-right"></i></span>
+                    </a>
+                </div>
+            </article>
+
+            <article class=" lg:w-1/3 space-y-3">
+                <!-- =================Blog image=============== -->
+                <div>
+                    <img src="./assets/images/blog-banner-3.jpg" alt="blog-banner-1"  class="rounded-md">
+                </div>
+                <!-- ===============Blog Date======================= -->
+                <div class="flex flex-row space-x-4">
+                    <div class="flex">
+                        <span><i class="uil uil-calendar-alt"></i></span>
+                        <p>APRIL 10 2021</p>
+                    </div>
+                    <div class="flex">
+                        <span><i class="uil uil-user"></i></span>
+                        <p>ADMIN</p>
+                    </div>
+                </div>
+                <!-- =======================Blog Header=================== -->
+                <div>
+                    <h2 class="text-2xl font-bold">BEST BUSINESS IDEA</h2>
+                </div>
+                <!-- ======================Blog Content=============== -->
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quia tenetur dolores libero iusto amet quibusdam quo rerum quaerat numquam! Similique alias </p>
+                </div>
+                <div>
+                    <a href="#" class="text-majorelleBlue">
+                        Learn more <span><i class="uil uil-angle-right"></i></span>
+                    </a>
+                </div>
+            </article>
+        </div>
+        </div>
+    </section>
+
+    <!-- =================Contact Form======================================== -->
+    <section id="contact" class="bg-ghostWhite1">
+        <div class="container mx-auto  py-24 space-y-6  px-3 md:px-10 lg:px-0">
+              <!--============== contact Header========= -->
+        <div class="text-center mx-auto flex flex-col items-center space-y-3">
+            <h2 class=" text-3xl md:text-4xl max-w-md  font-bold"> Contact Us</h2>
+            <p class="max-w-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam libero beatae magni itaque</p>
+        </div>
+        <!-- =================Contact Form-wraper================ -->
+        <div class="flex flex-col space-y-6 lg:flex-row  space-y-6 lg:justify-between">
+            <!-- ================Conatct Form=================== -->
+            <div class="lg:w-1/2">
+                <form action="#" class="space-y-3">
+                    <div class="flex flex-col md:flex-row w-full justify-between md:space-x-5">
+                        <div class="space-y-2 md:w-1/2">
+                            <p>Name*</p>
+                            <input type="text" placeholder="Enter Your Name" class="border w-full  p-2 px-6 outline-none rounded-md">
+                        </div>
+                        <div class=" space-y-2 md:w-1/2">
+                            <p>Email*</p>
+                            <input type="text" placeholder="Enter Your Email" class="border p-2 px-6 w-full outline-none rounded-md">
+                        </div>
+                    </div>
+                    <div class="space-y-2 w-100%">
+                        <p>Message*</p>
+                        <textarea   rows="4" class=" px-2 w-full border outline-none rounded-md" placeholder="Type Your Message here"></textarea>
+                    </div>
+                    <button class="btn h-10 px-3 py-2 text-center self-center rounded-md my-auto bg-majorelleBlue text-white text-base font-bold outline-none  border-none hover:translate-y-[-4px] transition duration hover:drop-shadow-md focus-none ease-in-out" type="button">Send Message</button>
+                </form>
+            </div>
+            <!-- ===============Conatct info================================== -->
+            <div class="lg:w-1/3 flex flex-col space-y-3 w-full">
+                <div class="flex">
+                    <span><i class="uil uil-envelope"></i></span>
+                    <p>: Support@webiste.com</p>
+                </div>
+                <div class="flex">
+                    <span><i class="uil uil-globe"></i></span>
+                    <p>: www.website.com</p>
+                </div>
+                <div class="flex">
+                    <span><i class="uil uil-phone"></i></span>
+                    <p>: (+001) 123 456 7890</p>
+                </div>
+                <div class="flex">
+                    <span><i class="uil uil-clock-five"></i></span>
+                    <p>: 9:00 AM - 6:00 PM </p>
+                </div>
+                <div class="flex">
+                    <span><i class="uil uil-location-point"></i></i></span>
+                    <p>: 1644 Deer Ridge Drive Rochelle Park, NJ 07662 </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ============================Footer section========================= -->
+    <footer id="footer" class="bg-raisinBlack1">
+        <div class="container mx-auto flex flex-col-reverse justify-between px-6 py-10 space-y-12  md:flex-col lg:flex-row md:space-y-0">
+            <div class=" mt-6 md:mt-0 md:mb-6  lg:mb-0 space-y-3">
+                <img src="./assets/images/logo-footer.svg" alt="logo-footer">
+                <p class="max-w-sm text-coolGray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quos.</p>
+                <div class="space-x-3">
+                    <a href=" " class=" hover:text-white text-coolGray  text-2xl"><i class="uil uil-facebook"></i></a>
+                    <a href="" class=" hover:text-white text-coolGray text-2xl"><i class="uil uil-twitter"></i></a>
+                    <a href="" class=" hover:text-white text-coolGray   text-2xl"><i class="uil uil-instagram"></i></a>
+                    <a href="" class=" hover:text-white text-coolGray   text-2xl"><i class="uil uil-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-3 lg:space-y-0  md:space-y-0 md:flex-row justify-between  lg:justify-around lg:space-x-32  " >
+                <div class=" flex flex-col space-y-3 text-white">
+                <h4 class="font-bold">ABOUT US</h4>
+                  <a href="#" class="hover:text-white text-coolGray">Home</a>
+                  <a href="#" class="hover:text-white text-coolGray">Pricing</a>
+                  <a href="#" class="hover:text-white text-coolGray">Products</a>
+                  <a href="#" class="hover:text-white text-coolGray">About Us</a>
+                </div>
+                <div class=" flex flex-col space-y-3 text-white">
+                    <h4 class="font-bold">CUSTOMERS</h4>
+                  <a href="#"  class="hover:text-white text-coolGray">Careers</a>
+                  <a href="#"  class="hover:text-white text-coolGray">Community</a>
+                  <a href="#"  class="hover:text-white text-coolGray">Privacy Policy</a>
+                </div>
+                <div class=" flex flex-col space-y-3 text-white">
+                    <h4 class="font-bold">SUPPORT</h4>
+                    <a href="#" class="hover:text-white text-coolGray">Careers</a>
+                    <a href="#"  class="hover:text-white text-coolGray">Community</a>
+                    <a href="#"  class="hover:text-white text-coolGray">Privacy Policy</a>
+                  </div>
+              </div>
+        </div>
+        <div class="text-center bg-raisinblack2 py-6">
+            <a class="text-center text-coolGray  hover:text-white pointer  "> &COPY; 2023 EzeoyeGoodluck. All rights Reserved </a>
+        </div>  
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
